@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    height: 100vh;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center; /* Membuat ruang antara logo dan teks */
+    align-items: center; /* Menyelaraskan elemen secara vertikal */
+    padding: 10px;
+    position: relative; /* Untuk memposisikan judul di tengah */
+    background-color: #333; /* Warna latar belakang header */
+}
+
+.img-header {
+    width: 250px; /* Ukuran gambar logo */
+    position: absolute; /* Memastikan logo tetap di pojok kiri */
+    left: 20px; /* Jarak dari tepi kiri */
+    top: 50%; /* Posisi vertikal di tengah */
+    transform: translateY(-50%); /* Menyesuaikan agar benar-benar di tengah */
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.judul-artikel {
+    color: #333;  
+    text-align: justify;
+    font-size: 13px;
+    margin: 30px;
+}
+
+.isi-artikel {
+    text-align: justify;
+    margin: 30px;
+    color: #333;
+
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Article Styles */
+article {
+    margin-bottom: 30px;
+}
+
+article h2 {
+    color: #333;
+}
+
+article p {
+    margin: 10px 0;
+    color: #333;
+}
+
+article a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+li {
+    color: #333;
+}
+
+.a-content {
+    color: #333;
+    text-decoration: none;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.img-content {
+    width: 200px;
+    height: 200px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+
+}
